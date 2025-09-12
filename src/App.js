@@ -1,0 +1,32 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Services from './Pages/Services';
+import DetailsServices from './Pages/DetailsServices'; 
+import AboutUs from "./Pages/AboutUs"; 
+import HomeServices from './Pages/HomeService';
+import Contact from './Pages/Contact';
+import ScrollToTop from './Components/ScrollToTop'; 
+import ProcessEcovidanord from './Pages/ProcessEcovidanord';
+import ScrollToTopButton from './Components/ScrollToTopButton'; // Importer le composant pour le bouton de retour en haut
+
+function App() {
+  return (
+    <Router>
+      <ScrollToTop />  {/* Cette ligne gère le retour automatique au haut de la page lors des changements de route */}
+      
+      {/* Ajouter le bouton ScrollToTopButton ici */}
+      <ScrollToTopButton /> 
+
+      <Routes>
+        <Route path="/services" element={<Services />} />
+        <Route path="/services/:slug" element={<DetailsServices />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/" element={<HomeServices />} /> 
+        <Route path="/contact" element={<Contact />} /> 
+        <Route path="/process" element={<ProcessEcovidanord />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;

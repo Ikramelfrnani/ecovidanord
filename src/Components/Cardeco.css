@@ -1,0 +1,76 @@
+.cardeco {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .cardeco-link-wrapper {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .cardeco-content {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    animation: fadeIn 0.6s ease forwards;
+  }
+  
+  .cardeco-content:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .cardeco-content img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .cardeco-content h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive container */
+  .cardeco-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .cardeco-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cardeco-content h2 {
+      font-size: 1.1rem;
+    }
+  }
+  

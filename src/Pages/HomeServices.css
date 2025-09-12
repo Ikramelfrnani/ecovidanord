@@ -1,0 +1,88 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+}
+
+.intro-section {
+  margin-top: 20px;
+  text-align: center;
+  padding: 60px 20px 30px;
+  margin-bottom: 50px;
+}
+
+.intro-section img {
+  max-width: 200px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.1));
+}
+
+.intro-section h3 {
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.h22 {
+  font-size: 2 rem;
+  color: #000000;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(to right, #1c252e, #2c3e50);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  opacity: 0;
+  animation: fadeSlideDown 0.6s ease forwards;
+}
+
+.h22::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #6ab432;
+  margin: 16px auto 0;
+  border-radius: 4px;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+  padding: 40px 20px 80px;
+  transition: all 0.3s ease-in-out;
+}
+
+@keyframes fadeSlideDown {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .h11 {
+    font-size: 1.6rem;
+  }
+
+  .intro-section h3 {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  .services-list {
+    padding: 30px 15px 60px;
+  }
+}
