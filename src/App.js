@@ -7,14 +7,13 @@ import HomeServices from './Pages/HomeService';
 import Contact from './Pages/Contact';
 import ScrollToTop from './Components/ScrollToTop'; 
 import ProcessEcovidanord from './Pages/ProcessEcovidanord';
-import ScrollToTopButton from './Components/ScrollToTopButton'; // Importer le composant pour le bouton de retour en haut
+import ScrollToTopButton from './Components/ScrollToTopButton';
 
 function App() {
   return (
     <Router>
-      <ScrollToTop />  {/* Cette ligne gère le retour automatique au haut de la page lors des changements de route */}
+      <ScrollToTop />
       
-      {/* Ajouter le bouton ScrollToTopButton ici */}
       <ScrollToTopButton /> 
 
       <Routes>
