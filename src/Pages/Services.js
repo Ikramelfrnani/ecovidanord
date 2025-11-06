@@ -9,7 +9,9 @@ function Services() {
   return (
     <>
         <NavBar/>
-        <div className="hero-section">
+        <div className="hero-section" style={{
+            backgroundImage: `url('${process.env.PUBLIC_URL}/images/services.jpg')`
+        }}>
             <div className="overlay">
                 <h1 className="title">Nos Services</h1>
                 <p className="description">
