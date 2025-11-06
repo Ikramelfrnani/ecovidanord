@@ -12,8 +12,7 @@ import ScrollToTopButton from './Components/ScrollToTopButton';
 function App() {
   return (
     <Router>
-      <ScrollToTop />  {/* Cette ligne gère le retour automatique au haut de la page lors des changements de route */}
-      
+      <ScrollToTop />
       <ScrollToTopButton /> 
 
       <Routes>
