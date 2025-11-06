@@ -148,17 +148,17 @@ const Dot = styled.span`
 const Banner = () => {
   const slides = [
     {
-      src: "/images/WhatsApp Image 2025-05-02 à 18.32.49_b3f41147.jpg",
+      src: `${process.env.PUBLIC_URL}/images/WhatsApp Image 2025-05-02 à 18.32.49_b3f41147.jpg`,
       caption: "Optimisation des déchets industriels",
       sub: "Collecte, tri et valorisation pour une gestion durable au cœur des territoires industriels.",
     },
     {
-      src: "/images/slide1.jpg",
+      src: `${process.env.PUBLIC_URL}/images/slide1.jpg`,
       caption: "Acteur engagé du développement durable",
-      sub: "Une coopérative implantée au nord du Maroc, au service de l'économie circulaire et de l’écosystème local.",
+      sub: "Une coopérative implantée au nord du Maroc, au service de l'économie circulaire et de l'écosystème local.",
     },
     {
-      src: "/images/depositphotos_622480686-stock-photo-concept-world-environment-world-grass.jpg",
+      src: `${process.env.PUBLIC_URL}/images/depositphotos_622480686-stock-photo-concept-world-environment-world-grass.jpg`,
       caption: "Éco-conscience et accompagnement",
       sub: "Nous sensibilisons et guidons entreprises et collectivités vers des pratiques plus responsables et durables.",
     },
