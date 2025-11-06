@@ -97,7 +97,7 @@ const Bottombanner = () => {
     <BannerContainer>
       <ImageSection ref={ref}>
         <img
-          src="/images/fc5650c1-0f59-4428-8a41-1c3936390a56-removebg-preview.png"
+          src={`${process.env.PUBLIC_URL}/images/fc5650c1-0f59-4428-8a41-1c3936390a56-removebg-preview.png`}
           alt="EcoVidaNord Recycling Truck"
           className={inView ? 'visible' : ''}
         />

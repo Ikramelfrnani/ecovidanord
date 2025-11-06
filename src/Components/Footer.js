@@ -145,7 +145,7 @@ const Footer = () => {
     <FooterContainer>
       <ContentWrapper>
         <Section>
-          <Logo src="/images/ecovida_white.png" alt="Eco Vida Nord Logo" />
+          <Logo src={'${process.env.PUBLIC_URL}/images/ecovida_white.png'} alt="Eco Vida Nord Logo" />
           <Description>
             Eco Vida Nord se positionne en tant que référence dans le domaine de la gestion globale des déchets industriels.
             Forts d'une expertise éprouvée et d'un engagement sans faille envers l'environnement, nous offrons à nos clients industriels

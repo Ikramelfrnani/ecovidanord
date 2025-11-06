@@ -27,7 +27,7 @@ const HeroSection = styled.div`
   position: relative;
   width: 100%;
   height: 400px;
-  background-image: url('/images/depositphotos_622480686-stock-photo-concept-world-environment-world-grasss.jpg');
+  background-image: url('${process.env.PUBLIC_URL}/images/depositphotos_622480686-stock-photo-concept-world-environment-world-grasss.jpg');
   background-size: cover;
   background-position: center;
   display: flex;

@@ -11,22 +11,22 @@ export default function HomeServices() {
         {
             title: "Collecte des déchets industriels",
             slug: "collecte",
-            imageSrc: "/images/collecte.png"
+            imageSrc: `${process.env.PUBLIC_URL}/images/collecte.png`
         },
         {
             title: "Tri des matériaux recyclables",
             slug: "tri",
-            imageSrc: "/images/tri.png"
+            imageSrc: `${process.env.PUBLIC_URL}/images/tri.png`
         },
         {
             title: "Recyclage et valorisation ",
             slug: "recyclage",
-            imageSrc: "/images/recyclage.png"
+            imageSrc: `${process.env.PUBLIC_URL}/images/recyclage.png`
         },
         {
             title: "Sensibilisation à la gestion des déchets",
             slug: "sensibilisation",
-            imageSrc: "/images/sensibilisation.png"
+            imageSrc: `${process.env.PUBLIC_URL}/images/sensibilisation.png`
         }
     ];
 
@@ -35,7 +35,7 @@ export default function HomeServices() {
             <NavBar/>
             <Banner/>
             <div className="intro-section">
-                <img src="/images/ecovidaLogo[1].png" alt="Logoecovidanord" />
+                <img src={`${process.env.PUBLIC_URL}/images/ecovidaLogo[1].png`} alt="Logoecovidanord" />
                 <h3>
                 Ecovidanord est une coopérative engagée dans la gestion durable des déchets industriels,
                  spécialisée dans la collecte, le tri, le recyclage et la valorisation des matériaux. 

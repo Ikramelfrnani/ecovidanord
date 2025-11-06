@@ -4,7 +4,6 @@ import NavBar from '../Components/NavBar';
 import styled, { keyframes } from 'styled-components';
 import Footer from '../Components/Footer';
 
-// Animation de texte fluide pour la Hero Section
 const slideDown = keyframes`
   0% {
     opacity: 0;
@@ -20,7 +19,7 @@ const HeroSection = styled.div`
   position: relative;
   width: 100%;
   height: 400px;
-  background-image: url('/images/depositphotos_648697550-stock-photo-concept-world-environment-world-grass (1).jpg');
+  background-image: url('${process.env.PUBLIC_URL}/images/depositphotos_648697550-stock-photo-concept-world-environment-world-grass (1).jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -37,7 +36,7 @@ const HeroSection = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* couche noire à 50% */
+    background: rgba(0, 0, 0, 0.5);
     z-index: 1;
   }
 
@@ -48,7 +47,7 @@ const HeroSection = styled.div`
     animation: ${slideDown} 1s ease-out forwards;
     letter-spacing: 2px; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-    z-index: 2; /* S'assurer que le texte est au-dessus de l'overlay */
+    z-index: 2;
     position: relative;
   }
 `;
@@ -69,7 +68,7 @@ export default function ProcessEcovidanord() {
           Découvrez notre processus en 3 étapes, conçu pour maximiser le recyclage et minimiser l'impact environnemental.
         </p>
 
-        {/* Etape 1: Collecte des déchets industriels */}
+        
         <div className="process-step">
           <div className="process-text">
             <h3>1. Collecte des déchets industriels</h3>
@@ -79,13 +78,12 @@ export default function ProcessEcovidanord() {
             </p>
           </div>
           <div className="process-media">
-            <img src="/images/WhatsApp Image 2025-05-03 à 16.56.44_ef65c785.jpg" alt="Collecte des déchets" />
-            {/* Ajout de la vidéo pour la collecte */}
-            <video className="process-video" src="/video/depositphotos_200449650-stock-video-garbage-disposal-machine-for-disposal.mp4" controls poster="/images/fc5650c1-0f59-4428-8a41-1c3936390a56.png" />
+            <img src={`${process.env.PUBLIC_URL}/images/WhatsApp Image 2025-05-03 à 16.56.44_ef65c785.jpg`} alt="Collecte des déchets" />
+            <video className="process-video" src={`${process.env.PUBLIC_URL}/video/depositphotos_200449650-stock-video-garbage-disposal-machine-for-disposal.mp4`} controls poster={`${process.env.PUBLIC_URL}/images/fc5650c1-0f59-4428-8a41-1c3936390a56.png`} />
           </div>
         </div>
 
-        {/* Etape 2: Tri des déchets */}
+        
         <div className="process-step reverse">
           <div className="process-text">
             <h3>2. Tri des déchets</h3>
@@ -95,12 +93,12 @@ export default function ProcessEcovidanord() {
           </div>
           <div className="process-media">
             <img src="/images/tri.png" alt="Tri des déchets" />
-            {/* Ajout de la vidéo pour le tri */}
-            <video className="process-video" src="/video/depositphotos_200449650-stock-video-garbage-disposal-machine-for-disposal.mp4" controls poster="/images/fc5650c1-0f59-4428-8a41-1c3936390a56.png" />
+            
+            <video className="process-video" src={`${process.env.PUBLIC_URL}/video/depositphotos_200449650-stock-video-garbage-disposal-machine-for-disposal.mp4`} controls poster={`${process.env.PUBLIC_URL}/images/fc5650c1-0f59-4428-8a41-1c3936390a56.png`} />
           </div>
         </div>
 
-        {/* Etape 3: Recyclage et valorisation */}
+        
         <div className="process-step">
           <div className="process-text">
             <h3>3. Recyclage et valorisation</h3>
@@ -109,9 +107,8 @@ export default function ProcessEcovidanord() {
             </p>
           </div>
           <div className="process-media">
-            <img src="/images/recyclage.png" alt="Recyclage des déchets" />
-            {/* Ajout de la vidéo pour le recyclage */}
-            <video className="process-video" src="/video/depositphotos_200449650-stock-video-garbage-disposal-machine-for-disposal.mp4" controls poster="/images/fc5650c1-0f59-4428-8a41-1c3936390a56.png" />
+            <img src={`${process.env.PUBLIC_URL}/images/recyclage.png`} alt="Recyclage des déchets" />
+            <video className="process-video" src={`${process.env.PUBLIC_URL}/video/depositphotos_200449650-stock-video-garbage-disposal-machine-for-disposal.mp4`} controls poster={`${process.env.PUBLIC_URL}/images/fc5650c1-0f59-4428-8a41-1c3936390a56.png`} />
           </div>
         </div>
       </section>

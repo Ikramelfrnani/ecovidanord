@@ -23,7 +23,7 @@ export default function WasteImpact() {
           </ul>
         </div>
         <div className="waste-image">
-          <img src="/images/depositphotos_622480686-stock-photo-concept-world-environment-world-g.jpg" alt="Gestion des déchets industriels" />
+          <img src={`${process.env.PUBLIC_URL}/images/depositphotos_622480686-stock-photo-concept-world-environment-world-g.jpg`} alt="Gestion des déchets industriels" />
         </div>
       </div>
     </section>

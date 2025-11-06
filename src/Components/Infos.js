@@ -109,7 +109,7 @@ const Infos = () => {
           </Paragraph>
         </TextSection>
         <ImageSection>
-          <Logo src="/images/eco.png" alt="Eco Vida Nord Logo" />
+          <Logo src={`${process.env.PUBLIC_URL}/images/eco.png`} alt="Eco Vida Nord Logo" />
         </ImageSection>
       </Content>
     </Container>
