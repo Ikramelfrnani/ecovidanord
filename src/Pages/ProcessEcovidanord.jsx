@@ -46,7 +46,6 @@ const HeroSection = styled.div`
     color: #fff;
     animation: ${slideDown} 1s ease-out forwards;
     letter-spacing: 2px; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     z-index: 2;
     position: relative;
   }

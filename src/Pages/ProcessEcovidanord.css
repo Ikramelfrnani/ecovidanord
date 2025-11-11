@@ -59,8 +59,8 @@
 }
 
 .process-media img {
-  width: 80%;  /* Réduire la largeur de l'image */
-  max-width: 500px;  /* Limiter la taille maximale de l'image */
+  width: 80%; 
+  max-width: 500px; 
   height: auto;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
@@ -68,8 +68,8 @@
 }
 
 .process-video {
-  width: 80%;  /* Réduire la largeur de la vidéo */
-  max-width: 500px;  /* Limiter la taille maximale de la vidéo */
+  width: 80%; 
+  max-width: 500px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
