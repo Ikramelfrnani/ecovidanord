@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ecovidanord/static/css/main.3b751cb2.css",
-    "main.js": "/ecovidanord/static/js/main.a8034e24.js",
+    "main.js": "/ecovidanord/static/js/main.6bf199ec.js",
     "static/js/453.5bfbdb1d.chunk.js": "/ecovidanord/static/js/453.5bfbdb1d.chunk.js",
     "index.html": "/ecovidanord/index.html",
     "main.3b751cb2.css.map": "/ecovidanord/static/css/main.3b751cb2.css.map",
-    "main.a8034e24.js.map": "/ecovidanord/static/js/main.a8034e24.js.map",
+    "main.6bf199ec.js.map": "/ecovidanord/static/js/main.6bf199ec.js.map",
     "453.5bfbdb1d.chunk.js.map": "/ecovidanord/static/js/453.5bfbdb1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b751cb2.css",
-    "static/js/main.a8034e24.js"
+    "static/js/main.6bf199ec.js"
   ]
 }
