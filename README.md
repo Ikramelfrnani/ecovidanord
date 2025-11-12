@@ -1,12 +1,12 @@
-# EcoVidaNord 
+# Ecovidanord 
 
 ![EcoVidaNord Website Preview](./public/images/ecovida1.png)
 
-A professional showcase website for EcoVidaNord cooperative, specializing in industrial waste management solutions.
+A professional showcase website for Ecovidanord cooperative, specializing in industrial waste management solutions.
 
 ##  Description
 
-EcoVidaNord is a vitrine website presenting the cooperative dedicated to sustainable industrial waste management. The platform highlights the crucial importance of proper industrial waste handling and showcases the cooperative's services, processes, and expertise in environmental preservation.
+Ecovidanord is a vitrine website presenting the cooperative dedicated to sustainable industrial waste management. The platform highlights the crucial importance of proper industrial waste handling and showcases the cooperative's services, processes, and expertise in environmental preservation.
 
 ##  Live Demo
 
@@ -52,3 +52,14 @@ npm install
 npm start
 
 # The application will open in your browser at http://localhost:3000
+```
+##  Author
+
+**Ikram El Frnani**
+- **GitHub**: [@ikramelfrnani](https://github.com/ikramelfrnani)
+- **LinkedIn**: [Ikram El Frnani](https://linkedin.com/in/ikram-el-frnani-9314a2201)  
+- **Portfolio**: [ikramelfrnani.vercel.app](https://ikramelfrnani.vercel.app/)
+
+
+
+
